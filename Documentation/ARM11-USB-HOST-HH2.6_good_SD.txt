@@ -1,0 +1,406 @@
+2018-03-06T09:33:42.062 - [root@Samsung ~]# [  110.460000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt
+2018-03-06T09:33:42.070 - [  110.460000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.125 - [  110.520000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed                  
+2018-03-06T09:33:42.133 - [  110.520000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+2018-03-06T09:33:42.141 - [  110.520000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0         
+2018-03-06T09:33:42.148 - [  110.520000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+2018-03-06T09:33:42.155 - [  110.520000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+2018-03-06T09:33:42.163 - [  110.520000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+2018-03-06T09:33:42.169 - [  110.530000] hub 1-0:1.0: state 7 ports 1 chg 0000 evt 0002                           
+2018-03-06T09:33:42.175 - [  110.535000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature
+2018-03-06T09:33:42.185 - [  110.535000] otg_dbg: in root_hub_feature()::00199 => case ClearPortFeature -USB_PORT_FEAT_C_CONNECTION 
+2018-03-06T09:33:42.191 - [  110.540000] hub 1-0:1.0: port 1, status 0101, change 0001, 12 Mb/s                                     
+2018-03-06T09:33:42.198 - [  110.545000] otg_dbg: in root_hub_feature()::00327 => case SetPortFeature
+2018-03-06T09:33:42.205 - [  110.545000] otg_dbg: in root_hub_feature()::00363 => case USB_PORT_FEAT_INDICATOR
+2018-03-06T09:33:42.325 - [  110.670000] hub 1-0:1.0: debounce: port 1: total 100ms stable 100ms status 0x101 
+2018-03-06T09:33:42.333 - [  110.670000] otg_dbg: in root_hub_feature()::00327 => case SetPortFeature        
+2018-03-06T09:33:42.341 - [  110.670000] otg_dbg: in root_hub_feature()::00358 => case SetPortFeature -USB_PORT_FEAT_RESET 
+2018-03-06T09:33:42.531 - [  110.675000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                        
+2018-03-06T09:33:42.540 - [  110.675000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.547 - [  110.680000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.556 - [  110.680000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.562 - [  110.685000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.571 - [  110.685000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.578 - [  110.690000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.587 - [  110.690000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.593 - [  110.695000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.602 - [  110.695000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.610 - [  110.700000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.619 - [  110.700000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.624 - [  110.705000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.634 - [  110.705000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.640 - [  110.710000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.650 - [  110.710000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.655 - [  110.715000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.664 - [  110.715000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.671 - [  110.720000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.680 - [  110.720000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.686 - [  110.725000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.696 - [  110.725000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.702 - [  110.730000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.711 - [  110.730000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.719 - [  110.735000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.727 - [  110.735000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.734 - [  110.740000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.742 - [  110.740000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.749 - [  110.745000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.758 - [  110.745000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.764 - [  110.750000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.773 - [  110.750000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.780 - [  110.755000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.789 - [  110.755000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.795 - [  110.760000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.804 - [  110.760000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.811 - [  110.765000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.821 - [  110.765000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.827 - [  110.770000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed                  
+2018-03-06T09:33:42.835 - [  110.770000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 0
+2018-03-06T09:33:42.843 - [  110.770000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0         
+2018-03-06T09:33:42.850 - [  110.770000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 1
+2018-03-06T09:33:42.857 - [  110.770000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+2018-03-06T09:33:42.865 - [  110.770000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+2018-03-06T09:33:42.872 - [  110.775000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt               
+2018-03-06T09:33:42.881 - [  110.775000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.887 - [  110.780000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.896 - [  110.780000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.903 - [  110.785000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.912 - [  110.785000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.918 - [  110.790000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.927 - [  110.790000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.934 - [  110.795000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.943 - [  110.795000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.949 - [  110.800000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:42.958 - [  110.800000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.965 - [  110.805000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature                         
+2018-03-06T09:33:42.974 - [  110.805000] otg_dbg: in root_hub_feature()::00206 => case ClearPortFeature -USB_PORT_FEAT_C_RESET 
+2018-03-06T09:33:42.981 - [  110.810000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                            
+2018-03-06T09:33:42.991 - [  110.810000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:42.996 - [  110.815000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.005 - [  110.815000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.013 - [  110.820000] usb 1-1: new high speed USB device using s3c6410_OTGHCD and address 2                  
+2018-03-06T09:33:43.019 - [  110.825000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt           
+2018-03-06T09:33:43.028 - [  110.825000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.038 - [  110.830000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.046 - [  110.835000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.053 - [  110.835000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.062 - [  110.835000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.071 - [  110.840000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.080 - [  110.845000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.086 - [  110.850000] otg_dbg: in root_hub_feature()::00327 => case SetPortFeature                           
+2018-03-06T09:33:43.096 - [  110.850000] otg_dbg: in root_hub_feature()::00358 => case SetPortFeature -USB_PORT_FEAT_RESET 
+2018-03-06T09:33:43.146 - [  110.855000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                        
+2018-03-06T09:33:43.155 - [  110.855000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.161 - [  110.860000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.170 - [  110.860000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.178 - [  110.865000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.186 - [  110.865000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.192 - [  110.870000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.201 - [  110.870000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.208 - [  110.875000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.217 - [  110.875000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.224 - [  110.880000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.233 - [  110.880000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.239 - [  110.885000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.248 - [  110.885000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.255 - [  110.890000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.264 - [  110.890000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.270 - [  110.895000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.280 - [  110.895000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.286 - [  110.900000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.295 - [  110.900000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.301 - [  110.905000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.310 - [  110.905000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.317 - [  110.910000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.326 - [  110.910000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.332 - [  110.915000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.341 - [  110.915000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.348 - [  110.920000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.357 - [  110.920000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.363 - [  110.925000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.372 - [  110.925000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.379 - [  110.930000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.389 - [  110.930000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.394 - [  110.935000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.403 - [  110.935000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.410 - [  110.945000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.419 - [  110.945000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.426 - [  110.950000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.435 - [  110.950000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.441 - [  110.955000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.450 - [  110.955000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.457 - [  110.960000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.466 - [  110.960000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.472 - [  110.965000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.481 - [  110.965000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.488 - [  110.970000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.497 - [  110.970000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.504 - [  110.975000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.512 - [  110.975000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.519 - [  110.980000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature                         
+2018-03-06T09:33:43.528 - [  110.980000] otg_dbg: in root_hub_feature()::00206 => case ClearPortFeature -USB_PORT_FEAT_C_RESET 
+2018-03-06T09:33:43.534 - [  110.985000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                            
+2018-03-06T09:33:43.544 - [  110.985000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.553 - [  110.990000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.562 - [  110.995000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.568 - [  110.995000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.577 - [  110.995000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.586 - [  111.000000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.593 - [  111.005000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.602 - [  111.005000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.614 - [  111.010000] otg_dbg: in s3c6410_otghcd_endpoint_disable()::00486 <7>otg_dbg: in otg_handle_interrupt()::00103 => SOF Intt
+2018-03-06T09:33:43.622 - [  111.015000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********                     
+2018-03-06T09:33:43.630 - [  111.020000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed                  
+2018-03-06T09:33:43.638 - [  111.020000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 0
+2018-03-06T09:33:43.645 - [  111.020000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0         
+2018-03-06T09:33:43.652 - [  111.020000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 1
+2018-03-06T09:33:43.659 - [  111.020000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+2018-03-06T09:33:43.667 - [  111.020000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+2018-03-06T09:33:43.674 - [  111.025000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt               
+2018-03-06T09:33:43.683 - [  111.025000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.689 - [  111.030000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt                             
+2018-03-06T09:33:43.698 - [  111.030000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.705 - [  111.035000] => s3c6410_otghcd_endpoint_disable                                                     
+2018-03-06T09:33:43.710 - [  111.040000] otg_dbg: in otg_handle_interrupt()::00103 => SOF Interrupt
+2018-03-06T09:33:43.718 - [  111.040000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.728 - [  111.045000] otg_dbg: in s3c6410_otghcd_endpoint_disable()::00486 => s3c6410_otghcd_endpoint_disable 
+2018-03-06T09:33:43.743 - [  111.065000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul********* 
+2018-03-06T09:33:43.752 - [  111.065000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.761 - [  111.070000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.771 - [  111.075000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.779 - [  111.080000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.788 - [  111.085000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.798 - [  111.090000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.806 - [  111.095000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.815 - [  111.100000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.824 - [  111.105000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.833 - [  111.110000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.842 - [  111.115000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.851 - [  111.120000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.861 - [  111.125000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.869 - [  111.130000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.878 - [  111.135000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.882 - [  111.140000] usb 1-1: default language 0x0409                                                       
+2018-03-06T09:33:43.891 - [  111.145000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.900 - [  111.150000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.909 - [  111.155000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.918 - [  111.160000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.927 - [  111.165000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.936 - [  111.170000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.947 - [  111.175000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:43.955 - [  111.180000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:44.027 - [  111.260000] usb 1-1: usb_probe_device                                                              
+2018-03-06T09:33:44.032 - [  111.260000] usb 1-1: configuration #1 chosen from 1 choice
+2018-03-06T09:33:44.041 - [  111.260000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:44.050 - [  111.265000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:44.059 - [  111.270000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:44.067 - [  111.275000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed                  
+2018-03-06T09:33:44.076 - [  111.275000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 0
+2018-03-06T09:33:44.082 - [  111.275000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0         
+2018-03-06T09:33:44.089 - [  111.275000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 1
+2018-03-06T09:33:44.097 - [  111.275000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+2018-03-06T09:33:44.104 - [  111.275000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+2018-03-06T09:33:44.110 - [  111.280000] usb 1-1: adding 1-1:1.0 (config #1, interface 0)                         
+2018-03-06T09:33:44.116 - [  111.290000] usb-storage 1-1:1.0: usb_probe_interface        
+2018-03-06T09:33:44.122 - [  111.290000] usb-storage 1-1:1.0: usb_probe_interface - got id
+2018-03-06T09:33:44.128 - [  111.295000] scsi0 : SCSI emulation for USB Mass Storage devices
+2018-03-06T09:33:44.132 - [  111.305000] usb-storage: device found at 2                     
+2018-03-06T09:33:44.138 - [  111.305000] usb-storage: waiting for device to settle before scanning
+2018-03-06T09:33:44.145 - [  111.315000] usb 1-1: new device strings: Mfr=3, Product=4, SerialNumber=0
+2018-03-06T09:33:44.150 - [  111.320000] hub 1-0:1.0: state 7 ports 1 chg 0000 evt 0002               
+2018-03-06T09:33:44.156 - [  111.325000] hub 1-0:1.0: port 1 enable change, status 00000503
+2018-03-06T09:33:44.164 - [  111.330000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature
+2018-03-06T09:33:44.172 - [  111.330000] otg_dbg: in root_hub_feature()::00213 => case ClearPortFeature -USB_PORT_FEAT_C_ENABLE 
+2018-03-06T09:33:49.147 - [  116.310000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.156 - [  116.310000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.165 - [  116.315000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.174 - [  116.320000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.183 - [  116.325000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.192 - [  116.330000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.201 - [  116.335000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.210 - [  116.340000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.219 - [  116.345000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.228 - [  116.350000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.236 - [  116.360000] scsi 0:0:0:0: Direct-Access     Generic  STORAGE DEVICE   0220 PQ: 0 ANSI: 0           
+2018-03-06T09:33:49.245 - [  116.365000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.254 - [  116.370000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.263 - [  116.375000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.311 - [  116.425000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.320 - [  116.430000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.329 - [  116.435000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.338 - [  116.440000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.347 - [  116.445000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.356 - [  116.450000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.365 - [  116.455000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.374 - [  116.460000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.383 - [  116.465000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.392 - [  116.470000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.401 - [  116.475000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.410 - [  116.480000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.419 - [  116.485000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.428 - [  116.490000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.437 - [  116.495000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.446 - [  116.500000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.455 - [  116.505000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.462 - [  116.510000] sd 0:0:0:0: [sda] 60751872 512-byte hardware sectors (31105 MB)                        
+2018-03-06T09:33:49.471 - [  116.520000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.480 - [  116.525000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.489 - [  116.530000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.498 - [  116.535000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.507 - [  116.540000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.516 - [  116.545000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.526 - [  116.550000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.534 - [  116.555000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.544 - [  116.560000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.553 - [  116.565000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.562 - [  116.570000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.566 - [  116.580000] sd 0:0:0:0: [sda] Write Protect is off                                                 
+2018-03-06T09:33:49.571 - [  116.580000] sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+2018-03-06T09:33:49.578 - [  116.585000] sd 0:0:0:0: [sda] Assuming drive cache: write through
+2018-03-06T09:33:49.587 - [  116.595000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.596 - [  116.600000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.605 - [  116.605000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.614 - [  116.610000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.623 - [  116.615000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.632 - [  116.620000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.641 - [  116.625000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.650 - [  116.630000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.659 - [  116.635000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.668 - [  116.640000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.677 - [  116.645000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.686 - [  116.650000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.695 - [  116.655000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.704 - [  116.660000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.713 - [  116.670000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.722 - [  116.670000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.731 - [  116.675000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.740 - [  116.680000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.749 - [  116.685000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.758 - [  116.690000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.767 - [  116.695000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.776 - [  116.700000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.785 - [  116.705000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.794 - [  116.710000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.801 - [  116.715000] sd 0:0:0:0: [sda] 60751872 512-byte hardware sectors (31105 MB)                        
+2018-03-06T09:33:49.810 - [  116.720000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.819 - [  116.725000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.828 - [  116.730000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.837 - [  116.735000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.846 - [  116.740000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.855 - [  116.745000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.864 - [  116.750000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.873 - [  116.755000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.882 - [  116.760000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.891 - [  116.765000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.900 - [  116.770000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.905 - [  116.780000] sd 0:0:0:0: [sda] Write Protect is off                                                 
+2018-03-06T09:33:49.910 - [  116.780000] sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+2018-03-06T09:33:49.916 - [  116.785000] sd 0:0:0:0: [sda] Assuming drive cache: write through
+2018-03-06T09:33:49.926 - [  116.790000]  sda:<7>otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.935 - [  116.800000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********        
+2018-03-06T09:33:49.944 - [  116.805000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.953 - [  116.810000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.962 - [  116.820000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.971 - [  116.825000] otg_dbg: in do_periodic_schedule()::00245 => *******Start to DoPeriodicSchedul*********
+2018-03-06T09:33:49.975 - [  116.830000]  sda4                                                                                  
+2018-03-06T09:33:49.979 - [  116.835000] sd 0:0:0:0: [sda] Attached SCSI removable disk
+2018-03-06T09:33:49.984 - [  116.840000] sd 0:0:0:0: Attached scsi generic sg0 type 0  
+2018-03-06T09:33:49.988 - [  116.845000] usb-storage: device scan complete           
+2018-03-06T09:33:58.748 -                                                 
+
+
+
+---------------two---------
+[root@Samsung ~]# [   64.375000] otg_dbg: in s3c6410_otghcd_irq()::00094 => s3c6410_otghcd_irq 
+[   64.375000] otg_dbg: in otg_handle_interrupt()::00054 => otg-isr #10000000                  
+[   64.375000] otg_dbg: in otg_handle_interrupt()::00072 => Connect ID Status Change Interrupt
+[   64.375000] otg_dbg: in oci_init_mode()::00644 => GINSTS = 0x1500002d                      
+[   64.375000] otg_dbg: in oci_init_mode()::00649 => HOST Mode          
+[   64.380000] otg_dbg: in s3c6410_otghcd_irq()::00094 => s3c6410_otghcd_irq 
+[   64.380000] otg_dbg: in otg_handle_interrupt()::00054 => otg-isr #1000000 
+[   64.380000] otg_dbg: in otg_handle_interrupt()::00091 => Port Interrupt  
+[   64.520000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   64.520000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   64.520000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0         
+[   64.520000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   64.520000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   64.520000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   64.530000] hub 1-0:1.0: state 7 ports 1 chg 0000 evt 0002                           
+[   64.535000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature
+[   64.535000] otg_dbg: in root_hub_feature()::00199 => case ClearPortFeature -USB_PORT_FEAT_C_CONNECTION 
+[   64.540000] hub 1-0:1.0: port 1, status 0101, change 0001, 12 Mb/s                                     
+[   64.545000] otg_dbg: in root_hub_feature()::00327 => case SetPortFeature
+[   64.545000] otg_dbg: in root_hub_feature()::00363 => case USB_PORT_FEAT_INDICATOR
+
+[root@Samsung proc]# cat interrupts 
+           CPU0
+ 26:          0           -  s3c2410-wdt
+ 28:       4062           -  S3C Timer Tick
+ 30:       1484           -  s3c-lcd
+ 36:          0           -  AC97
+ 37:        353           -  s3c-uart
+ 49:         11           -  s3c-hsmmc
+ 56:         26           -  s3c-hsmmc
+ 57:          0           -  s3c-hsmmc
+ 58:          1           -  EMSP_OTGHCD:usb1
+ 62:          0           -  s3c_updown
+ 63:          0           -  s3c_action
+ 
+ 
+ [root@(none):/proc]#cat interrupts                                                                                          
+           CPU0
+ 16:         18    s3c-uart  s3c6400-uart
+ 18:         57    s3c-uart  s3c6400-uart
+ 37:          0         VIC  s3c2440-i2c.1
+ 58:          0         VIC  s3c2410-wdt
+ 62:          0         VIC  s3c_fb
+ 73:          0         VIC  DMA
+ 74:          0         VIC  DMA
+ 79:          1         VIC  ohci_hcd:usb1
+ 82:          0         VIC  s3c2440-i2c.0
+ 88:         44         VIC  mmc0
+ 90:          1         VIC  EMSP_OTGHCD:usb2
+100:       1084   s3c-timer  S3C2410 Timer Tick
+
+
+[    2.830000] otg_dbg: in s3c6410_otg_module_init()::00223 => s3c6410_otg_module_init 
+[    2.840000] otg_dbg: in s3c6410_otg_drv_probe()::00054 => s3c6410_otg_drv_probe     
+[    2.845000] s3c6410_OTGHCD s3c6410_OTGHCD: qqq usb_create_hcd =0                
+[    2.850000] otg_dbg: in otg_hcd_init_modules()::00047 => OTGHCD_InitModuless 
+[    2.860000] otg_dbg: in init_transfer()::00055 => start to init_transfer     
+[    2.860000] otg_dbg: in oci_sys_init()::00604 => oci_sys_init           
+[    2.865000] s3c6410_OTGHCD s3c6410_OTGHCD: S3C6410 OTGHCD     
+[    2.865000] s3c6410_OTGHCD s3c6410_OTGHCD: new USB bus registered, assigned bus number 1
+[    2.870000] s3c6410_OTGHCD s3c6410_OTGHCD: irq 58, io mem 0x7c000000                    
+[    2.875000] otg_dbg: in s3c6410_otghcd_start()::00120 => s3c6410_otghcd_start 
+[    2.880000] otg_dbg: in s3c6410_otghcd_start()::00126 => OTG HCD Has Root Hub 
+[    2.890000] otg_dbg: in otg_usbcore_resume_roothub()::00246 => otg_usbcore_resume_roothub 
+[    3.045000] otg_dbg: in oci_init_mode()::00644 => GINSTS = 0x14003020                     
+[    3.050000] otg_dbg: in oci_init_mode()::00663 => DEVICE Mode        
+[    3.055000] otg_dbg: in oci_init_mode()::00644 => GINSTS = 0x14003020
+[    3.055000] otg_dbg: in oci_init_mode()::00663 => DEVICE Mode        
+[    3.060000] usb usb1: default language 0x0409                
+[    3.065000] usb usb1: usb_probe_device       
+[    3.070000] usb usb1: configuration #1 chosen from 1 choice
+[    3.075000] usb usb1: adding 1-0:1.0 (config #1, interface 0)
+[    3.080000] hub 1-0:1.0: usb_probe_interface                 
+[    3.085000] hub 1-0:1.0: usb_probe_interface - got id
+[    3.090000] hub 1-0:1.0: USB hub found               
+[    3.095000] hub 1-0:1.0: 1 port detected
+[    3.095000] hub 1-0:1.0: compound device; port removable status: R
+[    3.100000] hub 1-0:1.0: ganged power switching                   
+[    3.105000] hub 1-0:1.0: global over-current protection
+[    3.110000] hub 1-0:1.0: Single TT                     
+[    3.110000] hub 1-0:1.0: TT requires at most 24 FS bit times (1998 ns)
+[    3.115000] hub 1-0:1.0: Port indicators are supported                
+[    3.120000] hub 1-0:1.0: power on to power good time: 0ms
+[    3.125000] hub 1-0:1.0: local power source is good      
+[    3.130000] hub 1-0:1.0: no over-current condition exists
+[    3.135000] hub 1-0:1.0: enabling power on all ports     
+[    3.245000] hub 1-0:1.0: qqq activate --> 0         
+[    3.245000] qqq1 hub_events                
+[    3.245000] hub 1-0:1.0: state 7 ports 1 chg 0000 evt 0000
+[    3.250000] usb usb1: new device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.255000] otg_dbg: in s3c6410_otg_drv_probe()::00132 => OTG HCD Initialized HCD, bus=EMSP OTG Controller, usbbus=1
+[    3.265000] Initializing USB Mass Storage driver...                                                                 
+[    3.270000] qqq1 hub_events               
+ 
